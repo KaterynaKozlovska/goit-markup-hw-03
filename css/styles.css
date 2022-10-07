@@ -23,10 +23,21 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
+  outline: 2px solid tomato;
 }
 
 .section {
 padding: 94px 0;
+}
+
+ul {
+  margin: 0 auto;
+  padding-left: 0;
+}
+
+h1, h2, h3, h4, p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .link {
@@ -97,9 +108,15 @@ padding: 94px 0;
 
 .hero {
   background-color: var(--backgroud-primary-color);
+  text-align: center;
 }
 
 .hero-title {
+  margin-bottom: 30px;
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
@@ -109,6 +126,10 @@ padding: 94px 0;
 }
 
 .hero-button {
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 216px;
+
   color: var(--white-color);
   background-color: var(--accent-color);
   font-family: inherit;
@@ -126,6 +147,7 @@ padding: 94px 0;
 }
 
 .benefits-list-title {
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -206,6 +228,8 @@ padding: 94px 0;
 }
 
 .menu-button-item {
+  border-radius: 4px;
+  padding: 6px 22px;
   background: #f5f4fa;
   font-family: inherit;
   font-weight: 500;
